@@ -1,0 +1,93 @@
+/*
+ * @Author: Ishaan Ohri 
+ * @Date: 2022-01-31 22:33:33 
+ * @Last Modified by: Ishaan Ohri
+ * @Last Modified time: 2022-01-31 22:36:08
+ * @Description: CSS file for main header and login header
+ */
+#logo,
+#profile,
+#back,
+#logout {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.header {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 2px var(--green) solid;
+  position: relative;
+}
+
+#home {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+#title {
+}
+
+#logo {
+}
+
+#back {
+  position: absolute;
+  left: 10px;
+}
+
+#logout {
+  position: absolute;
+  right: 10px;
+}
+
+/* .header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  color: var(--green);
+  font-weight: 500;
+  font-size: 1em;
+  border-bottom: 2px var(--green) solid;
+}
+
+#title{
+  font-weight: 500;
+  color: var(--green);
+  font-size: 1.2em;
+}
+
+#home,
+#profile {
+  cursor: pointer;
+}
+
+#buttons {
+  position: absolute;
+  right: 20px;
+}
+
+#buttons p {
+  color: var(--green);
+  margin: 0px 20px;
+}
+
+#buttons p:hover {
+  color: var(--white);
+  cursor: pointer;
+} */
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}

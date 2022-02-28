@@ -1,0 +1,59 @@
+.screen-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.main-container {
+  padding: 50px;
+  box-shadow: var(--green) 0px 2px 8px 0px;
+  transition: 0.3s;
+  border-radius: 10px;
+  line-height: 50%;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.main-container:hover {
+  box-shadow: var(--green) 0px 3px 8px 2px;
+}
+
+#solidProviders,
+#username,
+#password {
+  color: var(--green);
+  background-color: transparent;
+  padding: 10px;
+  border: 2px var(--green) solid;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+h1,
+h4 {
+  font-weight: 100;
+}
+
+#solidProviders option {
+  color: var(--black);
+}
+
+#solidLogin {
+  color: var(--black);
+  background-color: var(--green);
+  padding: 15px;
+  border: 2px var(--green) solid;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#solidLogin:hover {
+  color: var(--green);
+  background-color: transparent;
+  cursor: pointer;
+}

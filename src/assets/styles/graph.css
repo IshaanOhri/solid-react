@@ -1,0 +1,27 @@
+/*
+ * @Author: Ishaan Ohri 
+ * @Date: 2022-01-31 22:33:05 
+ * @Last Modified by: Ishaan Ohri
+ * @Last Modified time: 2022-02-01 13:55:26
+ * @Description: Common CSS file for all graph pages
+ */
+#graph {
+  padding: 50px 0px 10px 0px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+#graphInfo {
+  text-align: center;
+  color: var(--green);
+  font-size: 1.2em;
+  font-weight: 800;
+  line-height: 50%;
+}
+
+#dates {
+  font-weight: 400;
+  font-size: .8em;
+}
